@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(20, 107, 189);
+  color: white;
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+}
+/* navbar */
+.navbar {
+  background-color: rgb(20, 107, 189);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 140px;
+  /* border: 1px solid white; */
+}
+
+.logo-pahamify {
+  margin-left: 20px;
+  /* border: 1px solid white; */
+  align-self: center;
+  margin-top: -15px;
+}
+
+.option-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-weight: 100;
+  /* border: 1px solid white; */
+  margin-top: 5px;
+  align-self: center;
+}
+
+.option:hover {
+  opacity: 75%;
+}
+
+.btn-download {
+  width: 175;
+  height: 30;
+  background-color: rgba(20, 107, 189, 50);
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+}
+.download-button {
+  /* border: 1px solid white; */
+  display: flex;
+  align-self: center;
+}
+
+.btn-download:hover {
+  opacity: 75%;
+}
+
+/* hero section start */
+.hero-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 120px;
+  /* border: 1px solid white; */
+  margin-bottom: 100px;
+}
+
+.hero-left {
+  align-self: center;
+  /* border: 1px solid white; */
+}
+
+.hero-muri {
+  margin-bottom: 15px;
+}
+.hero-tittle {
+  font-weight: bolder;
+}
+.hero-description {
+  font-weight: 300;
+  font-size: medium;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.hero-description-yellow {
+  color: rgb(226, 187, 14);
+  font-weight: 300;
+}
+.btn-download-yellow {
+  color: white;
+  background-color: rgb(240, 158, 7);
+  border-radius: 20px;
+  width: 220;
+  height: 35;
+  border: none;
+}
+.btn-download-yellow:hover {
+  color: white;
+  background-color: rgba(240, 158, 7, 1);
+  border: 1px solid white;
+}
+.hero-img {
+  width: 500;
+}
+
+/* hero section end */
+
+/* about start */
+
+.about-pahamify-section{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+}
+.about-tittle{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: rgba(20, 107, 189, 1);
+}
+
+.about-pahamify{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about-content{
+  display: flex;
+  width: 250px;
+  align-self: flex-start;
+  gap: 10px;
+}
+.about-content img{
+  width: 100;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+.about-paragraf{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.about-paragraf p{
+  margin-top: -15px;
+  color: grey;
+}
+/* about end */
+
+
+
