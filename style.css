@@ -340,48 +340,58 @@ body {
 /* footer start */
 footer {
   background-color: rgb(20, 107, 189);
-  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.pahamify-text{
+.pahamify-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
   padding-left: 400px;
   padding-right: 400px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
-footer h3{
-  margin-top: 75px ;
+footer h3 {
+  margin-top: 75px;
 }
 
 footer p {
   text-align: justify;
 }
 
-.pahamify-footer{
+.pahamify-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 90px;
   align-items: center;
 }
-.pahamify-footer a{
+.pahamify-footer a {
   color: rgb(193, 214, 5);
 }
 
-.download-pahamify img{
+.download-pahamify img {
   width: 150px;
-
 }
 
-.footer-content{
+.footer-content {
   align-self: flex-start;
 }
 
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 30px;
+  text-align: center;
+}
+.copyright span {
+  font-weight: bold;
+}
 
 /* footer end */
